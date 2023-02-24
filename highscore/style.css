@@ -1,0 +1,36 @@
+ body {
+	background-image: url(../images/programming.png);
+	background-size: cover;
+	padding: 1px;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+
+}
+h1 {
+	font-size: 30px;
+	color: white;
+}
+input {
+	font-size: 20px;
+}
+section {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: 1px solid white;
+	font-weight: bold;
+	background-color: #0009;
+	margin: 0px;
+}
+div {
+	color: white;
+	background-color: #0009;
+	font-size: 30px;
+}
+p {
+	color: white;
+}

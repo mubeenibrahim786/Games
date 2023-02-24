@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/programming.png);
+    /*background-size: round;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+header {
+	font-size: 30px;
+	color: white;
+	background-color: #000c;
+}
+.empty > p, span {
+	display: block;
+}
+/*button {
+	margin: 20px 0px;
+	padding: 5px;
+	font-size: 20px;
+	border-radius: 20px;
+	background-color: #ffffff80;
+	font-weight: bold;
+	color: black;
+
+}
+button:hover {
+	background-color: white;
+	transition: 1s;
+	color: black;
+
+}*/
+div {
+	font-size: 20px;
+	font-weight: bold;
+}
+/*#innerinp {
+	min-width : 140px;
+	max-width : 140px;
+	font-size: 15px;
+	font-weight: bold;
+	border: 4px solid white;
+	border-radius: 6px;
+}*/
+/*.my-inp {
+	margin: 5px 500px;
+}*/
+@media only screen and (max-width: 800px) {
+
+
+.my-inp {
+	margin: 5px 100px;
+	/*background-color: red;*/
+}
+.my-btn {
+	margin: 5px 100px;
+}
+ 
+}
+@media only screen and (min-width: 801px) {
+
+
+.my-inp {
+	margin: 5px 200px;
+	/*backgroun*/
+}
+.my-btn{
+	margin: 5px 200px;
+}
+
+}
+
+article {
+	color: white;
+	background-color: #000c;
+}
+.show {
+	margin: 3px 15px;
+	border: 2px solid white;
+}
+.dsplay {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+.dsplay>span {
+	margin: 10px;
+}
